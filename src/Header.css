@@ -1,0 +1,75 @@
+.elements{
+    display: flex;
+    width: 70%;
+    height: 20%;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+}
+.contact{
+   width: 60%;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   align-items: center;
+   column-gap: 2%;
+   /* height: 20%; */ 
+   flex-direction: row; 
+}
+.align{
+    /* height: 20%; */
+    background-color: #2A2C38;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.header{
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    justify-content: space-around;
+}
+ul{
+    /* translate: 10px 0 0; */
+    list-style: none;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 10%;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    /* translate: -10px 0 0; */
+}
+li{
+    font-weight: bold;
+}
+.button{
+    width: 20%;
+    color: white;
+    background-color: #2A2C38;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 1px;
+    border-radius: 10px;
+    padding: 10px;
+}
+h3{
+    color: white;
+    font-size: 10pt;
+}
+img{
+    width: 50%;
+    height: 70%;
+}
+.icons{
+    width: 13%;
+    height: 35%;
+}

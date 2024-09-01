@@ -1,0 +1,23 @@
+.carousel{
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+}
+.carousel-image{
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+}
+.heading{
+    position: absolute;
+    left: 27%;
+    bottom: 30%;
+    font-size: 22pt;
+}
+.sub-heading{
+    position: absolute;
+    left: 23%;
+    color: white;
+    bottom: 20%;
+    /* font-size: 22pt; */
+}
